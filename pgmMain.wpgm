@@ -1,0 +1,11 @@
+import gameEngine.gameEngine.*
+import gameEngine.primitives.*
+
+program main {
+    window.cellSize(3)
+    window.titulo("Test")
+
+    const corazon = new Imagen(height=null, width=null, image="corazon.png")
+
+    engine.start()
+}
